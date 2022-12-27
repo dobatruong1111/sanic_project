@@ -30,22 +30,23 @@ GET `http://localhost:8000/get_image_dicom?position=500&roll=90&azimuth=90&eleva
 #### Thao tác với camera: <br/>
 
 ![picture](./output/camera.png)
+<br/>
 Xét khoảng clipping range là 0.1...5000 <br/>
 Xét vị trí ban đầu của camera là (0, 0, 0.1) <br/>
 Ảnh ban đầu: <br/>
-![picture](./output/original_image.png) <br/>
+![picture](./output/original_image.png)
 
 Ảnh sau khi xét position bằng 500: <br/>
-![picture](./output/setposition.png) <br/>
+![picture](./output/setposition.png)
 
 Ảnh sau khi xoay 90 độ quanh trục z (roll): <br/>
-![picture](./output/roll90.png) <br/>
+![picture](./output/roll90.png)
 
 Ảnh sau khi xoay 90 độ quanh trục y (azimuth): <br/>
-![picture](./output/azimuth90.png) <br/>
+![picture](./output/azimuth90.png)
 
 Ảnh sau khi xoay 90 độ quanh trục x (elevation): <br/>
-![picture](./output/ele90.png) <br/>
+![picture](./output/ele90.png)
 
 Ảnh sau khi xoay quanh theo cả 3 trục tọa độ lần lượt z (roll), y (azimuth), x (elevation): <br/>
-![picture](./output/final_image.png) <br/>
+![picture](./output/final_image.png)
