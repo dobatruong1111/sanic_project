@@ -6,7 +6,8 @@
 
 ## Run
 
-`cd get-image-sanic-project` <br/>
+`git clone https://github.com/dobatruong1111/sanic_project.git`
+`cd sanic_project` <br/>
 `sanic main.app`
 
 ## Demo
@@ -25,14 +26,14 @@ GET `http://localhost:8000/get_image_dicom?position=500&roll=90&azimuth=90&eleva
 
 ## Mô tả
 
-### Gửi Request lên Web Server, Response là một ảnh dạng png
-
-#### Thao tác với camera: <br/>
+### Thao tác với camera: <br/>
 
 ![picture](./output/camera.png)
 <br/>
-Xét khoảng clipping range là 0.1...5000 <br/>
-Xét vị trí ban đầu của camera là (0, 0, 0.1) <br/>
+
+Xét khoảng clipping range là: 0.1...5000 <br/>
+Xét vị trí ban đầu của camera là: (0, 0, 0.1) <br/>
+
 Ảnh ban đầu: <br/>
 ![picture](./output/original_image.png)
 
@@ -48,5 +49,5 @@ Xét vị trí ban đầu của camera là (0, 0, 0.1) <br/>
 Ảnh sau khi xoay 90 độ quanh trục x (elevation): <br/>
 ![picture](./output/ele90.png)
 
-Ảnh sau khi xoay quanh theo cả 3 trục tọa độ lần lượt z (roll), y (azimuth), x (elevation): <br/>
+Ảnh sau khi xoay 90 độ quanh theo cả 3 trục tọa độ lần lượt z (roll), y (azimuth), x (elevation): <br/>
 ![picture](./output/final_image.png)

@@ -1,6 +1,6 @@
 import vtk
 
-path = "C:/Users/DELL E5540/Desktop/ImageProcessing/image/matlab/examples/sample_data/DICOM/digest_article"
+path = "./data"
 
 colors = vtk.vtkNamedColors()
 
